@@ -61,7 +61,7 @@ p {
   color: #666;
 }
 
-.list-low {
+.list-row {
   display: flex;
   align-items: center;
 }

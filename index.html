@@ -6,42 +6,21 @@
   </head>
 
   <body>
-		<!-- TODO入力エリア -->
+    <!-- TODO入力エリア -->
     <div class="input-area">
-			<input id="add-text" placeholder="TODOを入力" />
-			<button id="add-button">追加</button>
-		</div>
-		<!-- TODO実施予定エリア -->
-		<div class="incomplete-area">
-			<P class="title">未完了のTODO</P>
-			<ul id="incomplete-list">
-				<li>
-					<div class="list-row">
-						<p>１TODOです</p>
-						<button>完了</button>
-						<button>削除</button>
-					</div>
-				</li>
-				<li>	
-					<div class="list-row">
-						<p>2TODOです</p>
-						<button>完了</button>
-						<button>削除</button>
-					</div>												
-				</li>
-			</ul>
-		</div>
-		<!-- TODO実施済エリア -->
+      <input id="add-text" placeholder="TODOを入力" />
+      <button id="add-button">追加</button>
+    </div>
+    <!-- TODO実施予定エリア -->
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <ul id="incomplete-list"></ul>
+    </div>
+    <!-- TODO実施済エリア -->
     <div class="complete-area">
-			<p class="title">完了のTODO</p>
-			<ul id="complete-list">
-				<li>
-					<div class="list-row">
-					<p>1TODOでした</p>
-					<button>戻す</button>
-					</div>	
-				</li>
-		</div>
+      <p class="title">完了のTODO</p>
+      <ul id="complete-list"></ul>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
